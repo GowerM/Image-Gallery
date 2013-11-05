@@ -10,10 +10,16 @@
 
 /*Nav*/
 
-.home a:nth-child(1) {
+.index li:nth-child(1),
+.gallery li:nth-child(2) {
 	font-weight : bold;
 	font-size : 2em;
 	text-shadow : 2px 2px 0 green;
 	text-decoration : none;	
 }
 
+
+
+a {
+	text-decoration : none;	
+}
