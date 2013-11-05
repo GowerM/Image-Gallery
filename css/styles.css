@@ -1,1 +1,19 @@
-/* Stylesheet */
+/* Global */
+
+.index {
+	background : steelblue;	
+}
+
+.gallery {
+	background : red;
+}
+
+/*Nav*/
+
+.home a:nth-child(1) {
+	font-weight : bold;
+	font-size : 2em;
+	text-shadow : 2px 2px 0 green;
+	text-decoration : none;	
+}
+
